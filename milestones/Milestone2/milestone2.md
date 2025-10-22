@@ -1,41 +1,70 @@
-# Jose Pajuelo
 
-## Description
+## Democracy & Growth: Patterns, Transitions, and Waves
 
-To show how revolutions and coups have a widespread effect on neighbors, forming democratization and authoritarianism waves.
+Jose Pajuelo
 
-## Data Sources
+##  What is your current goal? Has it changed since the proposal?
 
-### Data Source 1: Colpus Dataset
+My current goal is to visually and intuitively show how democracy relates to economic growth.
+Additionally, I aim to highlight that regime status—often perceived as rigid—can shift under the right conditions (e.g., shocks, coalitions, regional waves). The goal remains the same, with a wider focus on relate visulization to evidence-based interpretations.
 
-URL:(https://www.johnjchin.com/colpus)
+##  Are there data challenges you are facing? Are you currently depending on mock data?
 
-Size:  551 rows , 24 columns
+Yes. The democracy–growth relationship is not straightforward (endogeneity, measurement error, time lags), so before plotting I ran exploratory checks, reviewed literature, and examined prior visualizations to ensure the charts make sense.
+This required exploring almost 10 additional tables from different sources; a few promising sources remain to be explored. Only Visualization 6 used mock data; everything else relies on observed data.
 
-This dataset contains all types of coup attempts from 1946 to 2022. It includes the country, date, and result of the attempts; the type of coup; the characteristics of leaders and, in some cases, supporters.
+##  Describe each of the provided images with 2-3 sentences to give the context and how it relates to your goal.
+### Visualization 1
 
-### Data Source 2: Coup d’État Project Dataset
-
-URL: https://databank.illinois.edu/datasets/IDB-7633503
-
-Size: 1094  rows, 29 columns
-
-This dataset contains all types of coup attempts from 1946 to 2022. It includes the country, date, and result of the attempts, as well as some characteristics. It also contains the consequences for the attempters, such as whether they were imprisoned, killed, or exiled.
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis1.png)
 
 
-### Data Source 2: NAVCO 1.3 List
+A first pass at the association between democracy and GDP per capita across countries. It suggests a positive relationship but also substantial dispersion, signaling the need to control for other variables (as region/history).
 
-URL: https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/ON9XND/XRA6WM&version=1.0
+### Visualization 2
 
-Size: 623  rows, 16 columns
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis2.png)
 
-This dataset contains episodes of maximalist campaings (meanign intention of shift the political regimen) from 1900 to 2019. Includes differents episodies as protest, revolutions or civil war.
+Builds on Viz 1 by partitioning by region. Liberal democracy is historically rooted in Europe and the Americas, where the democracy–growth association appears stronger On the other side the relation between GDP and liberty and democracy inthe Middle East and Asia show weaker or even nule.
+
+### Visualization 3
+
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis3.png)
+
+Maps/adoption view showing regional concentration of democratic institutions. Democracies are more prevalent in the West, while many countries in Africa and parts of Asia have different institutional paths, helping contextualize Vizzes 1–2.
+
+### Visualizations 4 & 5
+
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/vis4.png)
+
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis5.png)
+
+These charts has a similar intention than visualization 2 and 3 but with diferent chats. In this case compare wealth distributions across regime categories. While “Free” countries tend to have better outcomes on average, a closer, more granular look reveals overlaps (including extremealy wealthy non-free countries). This remain that wealth has alse other drivers.
+
+### Visualization 6
+
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis6.png)
+
+Despite uneven regional traditions, the share of the world’s population living under democratic rule has risen over time. This high-level trend motivates looking at when and how and why transitions happen and if this is benefitial or not. (This is the only chart that used mock data.)
+
+### Visualization 7
+
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis7.png)
+
+Given that is hard to compare democracy and not-democratic countries given is long-lasting different paths. This visualization compare within-country transitions to democracy and subsequent growth trajectories. By comparing each country to itself across regimes, the pattern offers suggestive evidence consistent with democracy being growth-enhancing for many cases.
+
+### Visualizations 8, 9 & 10
 
 
-## Questions
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis8.png)
 
-{Numbered list of questions for course staff, if any.}
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis9.png)
 
-1. The same topic and datasets are going to be used for dynamic project?
-2.
-3.
+![](https://github.com/JosePT16/Data_Viz_Static/blob/main/milestones/Milestone2/images_first_draft_static/Vis10.png)
+
+
+A central argument by Acemoglu and Robinson is that regime types are relatively rigid: democracies and authoritarianism tend to self-preserve through their own mechanisms. Nevertheless, there are periods when transitions become possible. In this view, it is useful to place transitions within historical “waves”—for example, the interwar authoritarian surge, Africa’s early-1990s liberalization, and the Arab Spring. Regime change often clusters in time and space, suggesting regional diffusion and shared shocks.
+
+##  What form do you envision your final narrative taking? (e.g. An article incorporating the images? A poster? An infographic?)
+
+A concise, article-style, easy-to-read explainer supported by visualization rooted in literature evidence.
