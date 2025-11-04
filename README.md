@@ -1,4 +1,4 @@
-# {Democracy Paradox}
+# Democracy Paradox
 
 Jose Pajuelo
 
