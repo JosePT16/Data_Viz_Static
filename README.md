@@ -39,9 +39,3 @@ be complemented by a dynamic, interactive version.
     https://data.worldbank.org/indicator/
 
 
-### Instruction for runing Jupyternotebook
-
-If not all packages are already installed, a virtual environment is provided. To run the notebook:
-    1. After cloning the repository, run `uv sync` in the terminal to install dependencies.
-    2. Open Jupyter and select the virtual environment kernel created by `uv`.
-    3. Open the `.ipynb` file and run the notebook.
